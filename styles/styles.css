@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
+  color: #000000;
 }
 
 /* main styles */
@@ -26,7 +27,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
-  color: #000000;
   margin-bottom: 20px;
 }
 .about-name {
@@ -42,7 +42,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 /* Projects */
 .title {
@@ -61,7 +60,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
 }
 
 .project,
@@ -70,16 +68,15 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 .project-link {
   margin-left: 10px;
+  margin-right: 10px;
   font-weight: 700;
-  text-decoration: none;
-  color: #070707;
+  color: #000000;
 }
 .project-link:hover {
-  text-decoration: underline;
+  color: #54704e;
 }
 
 .project-bracket {
@@ -87,7 +84,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
 }
 .project-description {
   font-weight: 400;
@@ -95,7 +91,6 @@ body {
   line-height: 24px;
   margin-left: 10px;
   margin-top: 5px;
-  color: #a8a8a8;
 }
 /* Work experience */
 .work-experience {
@@ -106,14 +101,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
   margin-bottom: 10px;
 }
 .organization {
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #070707;
 }
 
 .university {
@@ -121,14 +114,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #070707;
 }
 .period {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
   margin-bottom: 10px;
 }
 .li {
@@ -136,7 +127,6 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #000000;
 }
 .work-list {
   padding: 0;
@@ -147,7 +137,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 /* education */
 .education-list {
@@ -159,7 +148,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 .university {
   margin-bottom: 10px;
@@ -169,7 +157,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
 }
 /* sidebar styles */
 .sidebar {
@@ -219,10 +206,16 @@ body {
   line-height: 24px;
   color: #ffffff;
 }
-.contact-link:hover {
+.link {
   text-decoration: underline;
 }
 
+.contact-link:hover {
+  text-decoration: underline;
+}
+.link:hover {
+  color: aqua;
+}
 .tech-skills,
 .soft-skills {
   margin-bottom: 45px;
